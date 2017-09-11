@@ -1,4 +1,5 @@
 # Laravel View Composer Generator
+给 `Laravel` 增加一个了 `make:view-composer` 命令，用来自动生成 `view composer` 类文件。
 
 
 ## 安装
