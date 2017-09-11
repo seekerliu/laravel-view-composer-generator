@@ -1,0 +1,31 @@
+<?php
+
+namespace $service_provider_namespace;
+
+use Illuminate\Support\Facades\View;
+use Illuminate\Support\ServiceProvider;
+
+class $service_provider_name extends ServiceProvider
+{
+    /**
+     * Bootstrap the application services.
+     *
+     * @return void
+     */
+    public function boot()
+    {
+        View::composer(
+            '$view_composer_scope', '$view_composer_class'
+        );
+    }
+
+    /**
+     * Register the application services.
+     *
+     * @return void
+     */
+    public function register()
+    {
+        //
+    }
+}

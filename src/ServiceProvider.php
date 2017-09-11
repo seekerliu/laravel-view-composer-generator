@@ -2,7 +2,6 @@
 
 namespace Seekerliu\ViewComposerGenerator;
 
-use App\Console\Commands\ViewComposerMakeCommand;
 use Illuminate\Support\ServiceProvider as LaravelServiceProvider;
 
 class ServiceProvider extends LaravelServiceProvider
