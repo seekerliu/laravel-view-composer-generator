@@ -16,12 +16,5 @@
     "minimum-stability": "dev",
     "require": {
         "illuminate/filesystem": "^5.3"
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Seekerliu\\ViewComposerGenerator\\ServiceProvider"
-            ]
-        }
     }
 }
