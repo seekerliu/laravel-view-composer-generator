@@ -1,0 +1,1 @@
+# Laravel View Composer Generator
